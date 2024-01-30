@@ -1,7 +1,5 @@
 # 송재인과 이예지의 결혼식 모바일 청첩장
-![date](https://img.shields.io/date/1558189800.svg?style=for-the-badge)
-
-![메인사진](https://github.com/AndersonChoi/wedding-card/raw/master/docs/images/pic2.jpeg)
+![메인사진](https://github.com/SongJaeIn/wedding-card/blob/master/docs/images/청첩장김.png)
 
 ## 예식정보
 
