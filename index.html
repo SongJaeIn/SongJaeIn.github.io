@@ -36,12 +36,21 @@
 <script>
   Kakao.init('10b7d849b50944e0075f12ef740c7102'); // 사용하려는 앱의 JavaScript 키 입력
 </script>
-<button id="kakaotalk-sharing-btn2" type="button" class="styled-button" ">공유하기</button>
 
+<button id="kakaotalk-sharing-btn1" type="button" class="styled-button" ">신랑측 공유하기</button>
+<button id="kakaotalk-sharing-btn2" type="button" class="styled-button" ">신부측 공유하기</button>
+ 
 
 <script>
   Kakao.Share.createCustomButton({
     container: '#kakaotalk-sharing-btn2',
     templateId: 103693,
+  });
+</script>
+
+<script>
+  Kakao.Share.createCustomButton({
+    container: '#kakaotalk-sharing-btn1',
+    templateId: 104188,
   });
 </script>
